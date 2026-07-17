@@ -47,3 +47,8 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\install-silver-noir.ps
 
 `native-theme` 文件夹中的 `codex-theme-v1` 导入串只包含 Codex 原生颜色、字体和代码主题。
 完整的背景图、布局、按钮、输入框和弹窗样式需要本安装包中的 Dream Skin 运行时。
+
+该文件夹仅保留两份格式统一、可直接导入的 `.txt` 文件：
+
+- `silver-noir-dark.codex-theme.txt`：银夜黑金深色主题
+- `codex-default-dark-backup.codex-theme.txt`：Codex 默认深色恢复主题

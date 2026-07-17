@@ -69,7 +69,13 @@ codex-theme-v1:{"codeThemeId":"codex","theme":{"accent":"#D8BA72","contrast":68,
 
 #### 恢复 Codex 默认深色主题
 
-打开 [`codex-default-dark-backup.codex-theme.txt`](./codex-silver-noir-theme-windows-1.0.0/native-theme/codex-default-dark-backup.codex-theme.txt)，复制完整文本，然后在 Codex 的深色外观中导入。
+点击下面代码块右上角的复制按钮，复制完整的 Codex 默认深色主题文本：
+
+```text
+codex-theme-v1:{"codeThemeId":"codex","theme":{"accent":"#339CFF","contrast":60,"fonts":{"code":null,"ui":null},"ink":"#FFFFFF","opaqueWindows":false,"semanticColors":{"diffAdded":"#40C977","diffRemoved":"#FA423E","skill":"#AD7BF9"},"surface":"#181818"},"variant":"dark"}
+```
+
+也可以打开或下载原始文件：[`codex-default-dark-backup.codex-theme.txt`](./codex-silver-noir-theme-windows-1.0.0/native-theme/codex-default-dark-backup.codex-theme.txt)。复制完整文本后，在 Codex 的深色外观中导入。
 
 > [!NOTE]
 > 随包提供的默认备份用于恢复打包时 Codex 版本的默认深色外观，不能还原你此前自行定制的主题。Codex 后续版本若更改默认配色，建议优先使用你自己导出的备份。
@@ -150,8 +156,7 @@ codex-silver-noir-theme/
    ├─ install-silver-noir.ps1                # Windows 安装入口
    ├─ native-theme/
    │  ├─ silver-noir-dark.codex-theme.txt    # 银夜黑金原生深色主题
-   │  ├─ codex-default-dark-backup.codex-theme.txt
-   │  └─ silver-noir-dark.json               # 可读主题配置
+   │  └─ codex-default-dark-backup.codex-theme.txt # Codex 默认深色恢复主题
    ├─ runtime/                               # Dream Skin 运行时
    └─ skin/                                  # 背景图与主题配置
 ```
