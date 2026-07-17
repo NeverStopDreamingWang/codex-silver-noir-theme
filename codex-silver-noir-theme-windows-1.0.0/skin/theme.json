@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "custom-silver-noir-stage",
+  "name": "银夜黑金·星穹",
+  "image": "background.png",
+  "appearance": "dark",
+  "uiStyle": "black-gold-stage",
+  "nativeAppearance": {
+    "variant": "dark",
+    "codeThemeId": "codex",
+    "chromeTheme": {
+      "accent": "#D8BA72",
+      "contrast": 68,
+      "fonts": {
+        "code": "Cascadia Code",
+        "ui": "Microsoft YaHei UI"
+      },
+      "ink": "#F2EAD9",
+      "opaqueWindows": false,
+      "semanticColors": {
+        "diffAdded": "#40C977",
+        "diffRemoved": "#FA423E",
+        "skill": "#D8BA72"
+      },
+      "surface": "#0B0D0E"
+    }
+  },
+  "palette": {
+    "accent": "#d8ba72"
+  },
+  "art": {
+    "focusX": 0.76,
+    "focusY": 0.42,
+    "safeArea": "left",
+    "taskMode": "ambient"
+  }
+}
